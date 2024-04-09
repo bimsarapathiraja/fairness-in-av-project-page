@@ -133,7 +133,7 @@
         <!-- <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-left">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
       </h2>
     </div>
@@ -167,64 +167,64 @@
        <div class="item"> -->
         <!-- Your image here -->
         <img src="static/images/1_fog_levels2_conf-1.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
+        <h2 class="subtitle has-text-left">
           Black in the bottom plots indicates ground truth bounding boxes (i.e., there is only one pedestrian). Green indicates true positives and red indicates false positives. The confidence score is shown only when it is > 0.5. With the high levels of fog, it is possible to get false positives with confidences as high as 0.8.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/2_darkened_image_scale.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
+        <h2 class="subtitle has-text-left">
           FACET sample image across processed darkness levels 0.1, 0.4, 0.7, and 1.0 with 1.0 reflecting original darkness level and 0.0 representing total darkness. The darkness achieved through image processing techniques are intended to mimic natural lighting conditions.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/3_fog_levels.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
+        <h2 class="subtitle has-text-left">
           Carla simulation sample image across fog intensities of 0%, 25%, 50%, 75%, and 100%. The visibility of the road incrementally reduces as the fog intensity increases.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
       <img src="static/images/4_combined_darkness_metrics_data2_2.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-left">
         Performance disparities of ResNet50-backbone DETR model on Monk Skin Tone scale on FACET dataset. The metrics mAR and ATPC shows the model is more capable of identifying lighter skin tone people and more confidently than darker skin tone people. For any skin tone, the model's performance drops with the darkness.
     </div>
     <div class="item">
       <!-- Your image here -->
       <img src="static/images/5_combined_lighting_2.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-left">
         Analysis on the annotated lighting conditions, "well-lit" and "dimly-lit", and the skin tone. While the disparity for skin tones in the dimly-lit is not significant, lighter skin tones stands a better way of getting identified in well-lit conditions.
     </div>
     <div class="item">
       <!-- Your image here -->
       <img src="static/images/6_combined_gender_fog.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-left">
         The disparity analysis of the performance of the object detector for Carla experiments based on gender, skin tone and the body sizes are shown. Even though gender and skin tone do not affect much, small body size (children) is detected poorly. Each category of gender and body size plots use three types of pedestrains and the bold line represents the average line for each group. The skin tone plots use only one pedestrian type for each category due to the limited choices in the Carla catalogue of pedestrians.      </h2>
     </div>
     <div class="item">
       <!-- Your image here -->
       <img src="static/images/7_combined_size_fog.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-left">
         The disparity analysis of the performance of the object detector for Carla experiments based on gender, skin tone and the body sizes are shown. Even though gender and skin tone do not affect much, small body size (children) is detected poorly. Each category of gender and body size plots use three types of pedestrains and the bold line represents the average line for each group. The skin tone plots use only one pedestrian type for each category due to the limited choices in the Carla catalogue of pedestrians.      </h2>
     </div>
     <div class="item">
       <!-- Your image here -->
       <img src="static/images/8_combined_skin_fog.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-left">
         The disparity analysis of the performance of the object detector for Carla experiments based on gender, skin tone and the body sizes are shown. Even though gender and skin tone do not affect much, small body size (children) is detected poorly. Each category of gender and body size plots use three types of pedestrains and the bold line represents the average line for each group. The skin tone plots use only one pedestrian type for each category due to the limited choices in the Carla catalogue of pedestrians.      </h2>
     </div>
     <div class="item">
       <!-- Your image here -->
       <img src="static/images/9_combined_size_fog_dist3-1.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-left">
         ATPC metric values of Fig.~\ref{fig:3x4plot}b is divided into three plots based on the distance of the annotations to the ego vehicle. The ATPC metric decreases with both the distance and fog intensity.      </h2>
     </div>
     <div class="item">
       <!-- Your image here -->
       <img src="static/images/10_table.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-left">
         Application of disparity metrics mentioned in Section~\ref{sec:fair-mets} to mAR in gender and body size experiments conducted using Carla simulated environments. The skin tone evaluation is neglected due to the utilization of only a single person ID per skin tone category. ${\Delta}_\mathrm{worst}mAR$ reports the maximum observed mAR disparity and ${\Delta}_\mathrm{best}mAR$ reports the minimum. $W_{mAR}$ is used to calculate the Wasserstein distance between mAR distributions of each group. Both worst-case disparity and Wasserstein distances show a decrease in the disparity with the fog intensity level.    </div>
   </div>
 </div>
