@@ -1,2 +1,3 @@
-# fairness-in-av-project-page
-Project page for Fairness in Autonomous Driving
+# MCCL project page
+
+Project page designed for MCCL -- https://bimsarapathiraja.github.io/mccl-project-page/
